@@ -1,4 +1,4 @@
-/* KooL Hyprland Rofi Style 3 - Full screen v2 */
+/* Hyprland Rofi Style 3 - Full screen v2 */
 /* credit: https://github.com/adi1090x/rofi */
 
 /*****----- Configuration -----*****/
@@ -9,7 +9,7 @@ configuration {
     display-run:                "  term";
     display-filebrowser:        "  files";
     display-window:             "  window";
-	display-ssh:                " SSH";
+	  display-ssh:                " SSH";
     drun-display-format:        "{name}";
     window-format:              "{w} · {c} · {t}";
     hover-select:               true;
@@ -181,8 +181,8 @@ element-text selected,
 element selected.selected {
     background-color:            white/50%;
     text-color:                  @foreground;
-	border-radius:				 20px;
-	padding:					 20px;
+	  border-radius:              20px;
+	  padding:                    20px;
 }
 
 element-icon {
@@ -198,7 +198,7 @@ element-text {
     cursor:                      inherit;
     vertical-align:              0.5;
     horizontal-align:            0.5;
-	padding: 					 30px;
+	  padding:                    30px;
 }
 
 /*****----- Message -----*****/
